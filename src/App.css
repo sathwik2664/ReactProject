@@ -1,0 +1,358 @@
+.App {
+  text-align: center; 
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@import url('https://img.freepik.com/free-photo/psychedelic-paper-shapes-with-copy-space_23-2149378246.jpg?w=1380&t=st=1682852509~exp=1682853109~hmac=f1e1561deba28b3eb9f7b14a585526d868db4927f8bf7922ddf3a14a4e3db97c');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+}
+
+/* nav li {
+  justify-content: center;
+    margin: 0 1rem;
+} */
+nav li:hover{
+  background-color: rgb(218, 224, 229);
+  text-decoration: none;
+  justify-content: center;
+  padding: 0.1px;
+  padding-left: 10px;
+  padding-right: 30px;
+  border-radius: 15px;
+  color:white;
+  }
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 2rem;
+}
+
+.hero {
+    text-align: center;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+.services {
+    margin-top: 2rem;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+.pad{
+    padding: 20px;
+}
+.pad1{
+    padding: 5px;
+    align-items:center;
+}
+.cor{
+    height: 600px;
+    width: 800px;
+}
+.search{
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+.search1{
+    border: 2px solid #999;
+    border-radius: 5px;
+    padding: 5px;
+}
+.search2{
+    background-color: #070707;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.search3{
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+.search4{
+    border: 2px solid #999;
+     border-radius: 5px; 
+     padding: 1px;
+}
+.ChatBot{
+    background-color: #06d0d4;
+  color:white;
+  font-weight:bold;
+  font-size: 18px;
+  border-radius: 18px;
+  height: 35px;
+  width: 80px;
+  border: none;
+  margin-left: 6px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.ChatBot:hover{
+    box-shadow: 5px 5px 10px rgba(250, 9, 9, 0.15);
+}
+
+a[href^='mailto']::before {
+    content: '📧 ';
+  }
+  
+  a[href^='tel']::before {
+    content: '📞 ';
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.button{
+    padding: 10px 20px;
+    background-color: #3a5f8a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #007bff;
+}
+
+.button1{
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+
+/* features */
+.hero {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.feature {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.feature img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.feature h3 {
+    margin-bottom: 10px;
+}
+body2 {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header1 {
+  background-color:#555;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+#contact {
+  padding: 20px;
+  margin: 20px auto;
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid #e6e2e2;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact label {
+  margin-bottom: 5px;
+}
+
+#contact input,
+#contact textarea {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #9b9696;
+}
+
+#contact button {
+  padding: 10px 20px;
+  background-color: #555;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.img{
+  border-radius: 10px;
+  height: 150px;
+  width: 150px;
+  border: 1px solid #ddd;
+}
+/* {
+  background-color: lightslategray;
+  text-decoration: none;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 30px;
+  border-radius: 15px;
+  color:white;
+  } */
+/* FAQ */
+summary {
+  font-size: 1.25rem;
+  font-weight: 600;
+  background-color: #fff;
+  color: #333;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  outline: none;
+  border-radius: 0.25rem;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+}
+details > summary::after {
+  position: absolute;
+  content: "+";
+  right: 20px;
+}
+details[open] > summary::after {
+  position: absolute;
+  content: "-";
+  right: 20px;
+}
+.lawsession{
+  border: 0px;
+  border-radius: 18px;
+  
+
+}
+.col-md-4:hover{
+  box-shadow: 5px 5px 10px rgba(11, 11, 11, 0.15);
+}
